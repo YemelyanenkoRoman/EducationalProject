@@ -1,6 +1,4 @@
 'use client';
-
-import LogoMax from '../public/logo/technocat-logo-max 1.svg';
 import Image from 'next/image';
 
 import Directions from './directions/Directions';
@@ -35,6 +33,7 @@ const TheHeader = () => {
                     alt="Главный логотип образовательного центра ТехноКот"
                     width={0}
                     height={0}
+                    priority={true}
                     sizes="100vw"
                     className="w-full h-auto"
                   />
@@ -46,6 +45,7 @@ const TheHeader = () => {
                     alt="Главный логотип образовательного центра ТехноКот"
                     width={0}
                     height={0}
+                    priority={true}
                     sizes="100vw"
                     className="w-full h-auto"
                   />

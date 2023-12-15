@@ -57,7 +57,7 @@ export const AsNavFor = () => {
 
   return (
     <div className="md:w-[810px] xs:w-full xs:overflow-x-hidden mx-auto">
-      <div className="md:w-[810px] xs:w-full xs:overflow-x-hidden mb-1 ">
+      <div className="md:w-[810px] xs:w-full xs:overflow-x-hidden mb-1">
         <Slider {...settings1} asNavFor={nav2} ref={(slider) => setNav1(slider || undefined)}>
           {Images.map((item, index) => {
             return (
@@ -70,7 +70,7 @@ export const AsNavFor = () => {
           })}
         </Slider>
       </div>
-      <div className="w-[810px]">
+      <div className="w-[810px] ">
         <Slider
           {...settings}
           asNavFor={nav1}
@@ -82,7 +82,7 @@ export const AsNavFor = () => {
           {Images.map((item, index) => {
             return (
               <div key={index} className="hover:cursor-grab active:cursor-grabbing">
-                <Image width={180} height={160} src={item.src} alt={item.alt} />
+                <Image width={180} height={92} src={item.src} alt={item.alt} />
               </div>
             );
           })}

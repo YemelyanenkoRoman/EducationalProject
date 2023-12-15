@@ -33,6 +33,7 @@ export const DirectionCardData: DirectionCardData[] = [
         height={0}
         sizes="100vw"
         className="w-full h-auto"
+        priority={true}
       />
     ),
     bgColorImg: 'bg-[#724DA1]',
@@ -60,6 +61,7 @@ export const DirectionCardData: DirectionCardData[] = [
         height={0}
         sizes="100vw"
         className="w-full h-auto"
+        priority={true}
       />
     ),
     bgColorImg: 'bg-[#FFC3BA]',
@@ -86,6 +88,7 @@ export const DirectionCardData: DirectionCardData[] = [
         height={0}
         sizes="100vw"
         className="w-full h-auto"
+        priority={true}
       />
     ),
     bgColorImg: 'bg-[#E2F9FE]',
@@ -112,6 +115,7 @@ export const DirectionCardData: DirectionCardData[] = [
         height={0}
         sizes="100vw"
         className="w-full h-auto"
+        priority={true}
       />
     ),
     bgColorImg: 'bg-[#EAD46F]',
@@ -165,6 +169,7 @@ export const DirectionCardData: DirectionCardData[] = [
         height={0}
         sizes="100vw"
         className="w-full h-auto"
+        priority={true}
       />
     ),
     bgColorImg: 'bg-[#4497AD]',
